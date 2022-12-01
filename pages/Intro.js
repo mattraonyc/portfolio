@@ -1,7 +1,7 @@
 import {
-    AiFillTwitterCircle,
     AiFillLinkedin,
-    AiFillYoutube,
+    AiTwotoneMail,
+    AiFillGithub,
   } from "react-icons/ai";
 import deved from "../public/dev-ed-wave.png";
 import Image from "next/image";
@@ -19,9 +19,9 @@ export default function Intro() {
       needs. Join me down below and let's get cracking!
     </p>
     <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-      <AiFillTwitterCircle />
-      <AiFillLinkedin />
-      <AiFillYoutube />
+        <a href="mailto:mattraonyc@gmail.com"  target="_blank"><AiTwotoneMail /></a>
+        <a href="https://github.com/mattraonyc"  target="_blank"><AiFillGithub /></a>
+        <a href="https://linkedin.com/in/mattyrao/"  target="_blank"><AiFillLinkedin /></a>
     </div>
     <div className="flex justify-center mx-auto bg-gradient-to-b from-teal-500 rounded-full w-52 h-52 overflow-hidden relative mt-20 md:h-96 md:w-96 sm:w-80 sm:h-80">
       <Image src={deved} layout="fill" objectFit="cover"/>

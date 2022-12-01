@@ -1,5 +1,5 @@
 export default function MyStory() {
-    return <div className="py-10">
+    return <div className="pb-10 sm:py-10">
     <my-story />
     <h3 className="text-3xl py-1 dark:text-white " id="my-story">My Story</h3>
     <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
