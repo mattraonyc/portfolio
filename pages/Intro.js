@@ -23,8 +23,8 @@ export default function Intro() {
       <AiFillLinkedin />
       <AiFillYoutube />
     </div>
-    <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-      <Image src={deved} layout="fill" objectFit="cover" />
+    <div className="flex justify-center mx-auto bg-gradient-to-b from-teal-500 rounded-full w-52 h-52 overflow-hidden relative mt-20 md:h-96 md:w-96 sm:w-80 sm:h-80">
+      <Image src={deved} layout="fill" objectFit="cover"/>
     </div>
   </div>
 }

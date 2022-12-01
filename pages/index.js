@@ -19,8 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-
+      <main className=" bg-white px-10 dark:bg-gray-900 w-[100%] md:px-20 lg:px-40 box-border overflow-hidden">
           <Navbar />
           <Intro />
           <MyStory />
