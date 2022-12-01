@@ -18,11 +18,11 @@ export default function Navbar() {
           className=" cursor-pointer text-2xl"
         />
       </li> */}
-      <li className="flex items-center justify-center">
-        <div >
+      <li className="flex items-center justify-center gap-7">
+        <div>
         <a><motion.div whileHover={{scale: 1.1}}
           whileTap={{ scale: 0.9 }}
-          className="hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+          className="hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
           href="#my-story"
           >Story</motion.div>
           </a>
@@ -31,7 +31,7 @@ export default function Navbar() {
         <div>
         <a href="#projects"><motion.div whileHover={{scale: 1.1}}
           whileTap={{ scale: 0.9 }}
-          className="hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+          className="hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
           href="#projects"
         >
           Projects</motion.div>
@@ -41,7 +41,7 @@ export default function Navbar() {
         <div>
         <a href="#contact"><motion.div whileHover={{scale: 1.1}}
           whileTap={{ scale: 0.9 }}
-          className="hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+          className="hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
           href="#contact"
         >
           Contact</motion.div>
