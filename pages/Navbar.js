@@ -20,7 +20,7 @@ export default function Navbar() {
       </li> */}
       <li className="flex items-center justify-center gap-7">
         <div>
-        <a><motion.div whileHover={{scale: 1.1}}
+        <a href="#my-story"><motion.div whileHover={{scale: 1.1}}
           whileTap={{ scale: 0.9 }}
           className="hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
           href="#my-story"

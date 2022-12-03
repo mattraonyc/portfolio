@@ -9,13 +9,14 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'montserrat': ['Montserrat', "sans-serif"],
+      'satoshi': ['Satoshi', "sans-serif"],
     },
     extend: {
       fontFamily: {
         burtons: "burtons",
         montserrat: ['Montserrat', "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        satoshi: ['Satoshi', "sans-serif"],
       },
     },
   },
