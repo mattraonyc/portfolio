@@ -19,10 +19,11 @@ export default function Projects() {
     <div className="flex flex-col justify-center gap-10 py-10">
 
     <motion.div 
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0, scale: 0.8, y: 10 }}
+      whileInView={{ opacity: 1, scale: 1,y:0 }}
+      transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       viewport={{ once: true }}
-      className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
+      className="flex flex-col gap-10 rounded-3xl bg-[#212121] p-[30px] lg:flex-row lg:flex-wrap">
         <div className="basis-2/5 flex-1 ">
         <Link href="/projectOne"><a>
         <Image
@@ -43,10 +44,11 @@ export default function Projects() {
     </motion.div>
 
     <motion.div 
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0, scale: 0.8, y: 10 }}
+      whileInView={{ opacity: 1, scale: 1,y:0 }}
+      transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       viewport={{ once: true }}
-      className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
+      className="flex flex-col gap-10 rounded-3xl bg-[#212121] p-[30px] lg:flex-row lg:flex-wrap">
         <div className="basis-2/5 flex-1 ">
         <Link href="/projectOne"><a>
         <Image
@@ -67,10 +69,11 @@ export default function Projects() {
     </motion.div>
 
     <motion.div 
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0, scale: 0.8, y: 10 }}
+      whileInView={{ opacity: 1, scale: 1,y:0 }}
+      transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       viewport={{ once: true }}
-      className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
+      className="flex flex-col gap-10 rounded-3xl bg-[#212121] p-[30px] lg:flex-row lg:flex-wrap">
         <div className="basis-2/5 flex-1 ">
         <Link href="/projectOne"><a>
         <Image
@@ -91,10 +94,11 @@ export default function Projects() {
     </motion.div>
 
     <motion.div 
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0, scale: 0.8, y: 10 }}
+      whileInView={{ opacity: 1, scale: 1,y:0 }}
+      transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       viewport={{ once: true }}
-      className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
+      className="flex flex-col gap-10 rounded-3xl bg-[#212121] p-[30px] lg:flex-row lg:flex-wrap">
         <div className="basis-2/5 flex-1 ">
         <Link href="/projectOne"><a>
         <Image

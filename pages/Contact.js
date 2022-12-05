@@ -2,15 +2,22 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
 export default function Contact() {
     return <section>
-    <div>
+    <motion.div 
+      initial={{ opacity: 0, scale: 0.8, y: 10 }}
+      whileInView={{ opacity: 1, scale: 1,y:0 }}
+      transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
+      viewport={{ once: true }}
+      >
       <h3 className="text-3xl py-1 dark:text-white " id="contact">Contact Me!</h3>
       <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
         If you have enjoyed reading about and reviewing my work and you would like to contact me,
          then please reach out to me by email: <span className="block pt-6 text-teal-500 pb-10"><a href="mailto:mattraonyc@gmail.com"  target="_blank">mattraonyc@gmail.com</a></span>
       </p>
-    </div>
+    </motion.div>
     {/* <div className="lg:flex gap-10">
       <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
         <Image src={design} width={100} height={100} />
