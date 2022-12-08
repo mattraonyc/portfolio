@@ -7,7 +7,6 @@ export default function MyStory() {
       whileInView={{ opacity: 1, scale: 1,y:0 }}
       transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       viewport={{ once: true }} 
-      whileHover={{ boxShadow: "0 2px 60px 0 rgba(241, 180, 62, 0.3)" }}
       className = "rounded-3xl bg-[#212121] p-[20px]">
       <my-story />
         <h3 className="text-3xl py-1 dark:text-white " id="my-story">Hey, I'm Matt 👋</h3>
@@ -16,8 +15,7 @@ export default function MyStory() {
           After graduating with a degree in Marketing Management, I quickly discovered my passion for web development
           and the opportunity to combine technical problem
           solving with the ever-growing technology stacks energizes me to work with designers and businesses to bring their concepts to life.
-          When I am not coding or studying, I love to spend my free time playing video games and watching crime TV shows with friends.
-          My other hobby is taking on Italian baking recipes and they are perfect companions to the scarier crime shows.
+          When I am not coding or studying, I love to spend my free time playing video games and watching crime TV shows.
         </p>
     </motion.div>
     </div>

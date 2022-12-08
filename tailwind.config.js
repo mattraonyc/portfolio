@@ -17,6 +17,7 @@ module.exports = {
         montserrat: ['Montserrat', "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         satoshi: ['Satoshi', "sans-serif"],
+        aeonik: ["Aeonik", "sans-serif"],
       },
     },
   },

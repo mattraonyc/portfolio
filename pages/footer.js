@@ -5,29 +5,75 @@ import {
     AiFillGithub,
   } from "react-icons/ai";
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 export default function Footer() {
     return <>
-    <div className="bg-[#000] pt-[50px]">
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.8, y: 10 }}
-        whileInView={{ opacity: 1, scale: 1,y:0 }}
-        transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
-        viewport={{ once: true }} 
-        className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="mailto:mattraonyc@gmail.com"  target="_blank"><AiTwotoneMail /></a>
-            <a href="https://github.com/mattraonyc"  target="_blank"><AiFillGithub /></a>
-            <a href="https://linkedin.com/in/mattyrao/"  target="_blank"><AiFillLinkedin /></a>
-      </motion.div>
+    <div className="bg-[#000] pt-[50px] flex flex-col sm:flex-row justify-between">
+      <div>
       <motion.div 
       initial={{ opacity: 0, scale: 0.8, y: 10 }}
       whileInView={{ opacity: 1, scale: 1,y:0 }}
       transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       viewport={{ once: true }}>
-      <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-center pb-20 pt-8">
-      © 2023 Matt Rao
-      </p>
+          <p className="text-sm py-2 leading-8 text-gray-800 dark:text-gray-500 text-start pl-12 pt-8">
+          VERSION
+          </p>
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12 pb-10">
+          2023 © Edition
+          </p>
       </motion.div>
+      </div>
+      <div>
+      <p className="text-sm py-2 leading-8 text-gray-800 dark:text-gray-500 text-start pl-12 pt-8">
+          SOCIALS
+      </p>
+      <motion.div 
+        initial={{ opacity: 0, scale: 0.8, y: 10 }}
+        whileInView={{ opacity: 1, scale: 1,y:0 }}
+        transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
+        viewport={{ once: true }} 
+        className="flex gap-6 pb-10 pr-12">
+
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12">
+          <motion.a 
+          initial={{opacity: 0.6}}
+          whileHover={{opacity: 1}}
+          href="mailto:mattraonyc@gmail.com"  target="_blank">
+          Email
+          </motion.a>
+          </p>
+
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12">
+          <motion.a 
+          initial={{opacity: 0.6}}
+          whileHover={{opacity: 1}}
+          href="https://www.instagram.com/mattyrao/"  target="_blank">
+          Instagram
+          </motion.a>
+          </p>
+
+
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12">
+          <motion.a
+          initial={{opacity: 0.6}}
+          whileHover={{opacity: 1}}
+          href="https://github.com/mattraonyc"  target="_blank">
+          Github
+          </motion.a>
+          </p>
+
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12">
+          <motion.a 
+          initial={{opacity: 0.6}}
+          whileHover={{opacity: 1}}
+          href="https://linkedin.com/in/mattyrao/"  target="_blank">
+          LinkedIn
+          </motion.a>
+          </p>
+      </motion.div>
+      </div>
     </div>
+              
     </>
 }

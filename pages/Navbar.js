@@ -1,13 +1,14 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Link from 'next/link';
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export default function Navbar() {
     const [darkMode, setDarkMode] = useState(true);
+
     return <div className={darkMode ? "dark" : ""}>
-    <div className="fixed top-0 left-0 right-0 z-50 bg-[#1A1A1A]">
-    <nav className="py-5 flex justify-between items-center dark:text-white flex-col sm:flex-row sm:px-[50px] lg:px-[160px]">
+    <div className="top-0 left-0 right-0 z-50 bg-[#1A1A1A]">
+    <nav className="py-5 flex justify-between items-center dark:text-white flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
       <a href="./">
       <motion.div>
         <h1 className="text-xl">Matt Rao</h1>
@@ -31,7 +32,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.8 }}
             transition={{ type: "spring", stiffness: 400, damping: 10}}
             initial={{opacity: 0.8}}
-            className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
+            className="text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
             href="#my-story"
             >
               Story
@@ -47,7 +48,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.8 }}
             transition={{ type: "spring", stiffness: 400, damping: 10}}
             initial={{opacity: 0.8}}
-            className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
+            className="text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
             href="#projects"
           >
             Projects</motion.div>
@@ -62,7 +63,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.8 }}
             transition={{ type: "spring", stiffness: 400, damping: 10}}
             initial={{opacity: 0.8}}
-            className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
+            className="text-white text-center px-4 py-2 border-none rounded-md w-[100px]"
             href="#contact"
           >
             Contact</motion.div>
