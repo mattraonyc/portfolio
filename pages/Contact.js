@@ -61,8 +61,8 @@ export default function Contact() {
         animate={cursorVariant}
 
       />
-      <h3 className="text-3xl py-1 dark:text-white " id="contact">Get in touch</h3>
-      <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+      <h3 className="text-5xl font-bold  py-1 dark:text-white " id="contact">Get in touch</h3>
+      <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
         If you have enjoyed reading about and reviewing my work and you would like to contact me,
          then please reach out to me by email: <span className="block pt-6 text-white pb-10"><a href="mailto:mattraonyc@gmail.com"  target="_blank">mattraonyc@gmail.com</a></span>
       </p>

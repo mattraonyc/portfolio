@@ -12,7 +12,7 @@ import { duration } from "moment";
 export default function Intro() {
     const [playMarquee, setPlayMarquee] = useState(false);
     let { scrollY } = useScroll();
-    let y = useTransform(scrollY, [0, 600], ["0%", "100%"])
+    let y = useTransform(scrollY, [0, 600], ["0%", "50%"])
 
     return <div className="text-center px-10 pt-10 mt-[100px] min-h-screen">
     <motion.div 

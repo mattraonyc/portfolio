@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projectOne": [
+    "/projects/gardensOfBabylon": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projectOne.js"
+      "static/chunks/pages/projects/gardensOfBabylon.js"
     ]
   },
   "ampFirstPages": []
