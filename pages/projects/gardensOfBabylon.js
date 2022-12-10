@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { React, useState, useEffect } from "react";
 import Footer from "../footer";
+import Link from 'next/link';
 
 export default function gardensOfBabylon () {
     const [darkMode, setDarkMode] = useState(true);
@@ -50,7 +51,7 @@ export default function gardensOfBabylon () {
     className=" text-white"
     >
         <div className="top-0 left-0 right-0 z-50 bg-[#1A1A1A]">
-            <nav className="py-5 flex justify-between items-center text-white flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
+            <nav className="py-6 flex justify-between items-center text-white flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
             <a href="../">
             <motion.div>
                 <h1 className="text-xl">Matt Rao</h1>
@@ -59,7 +60,7 @@ export default function gardensOfBabylon () {
             </nav>
         </div>
 
-        <div className="max-w-[1390px] mx-auto px-10">
+        <div className="max-w-[1390px] mx-auto sm:px-10">
             <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-36 mb-16 mx-16">
                 <motion.div 
                     className="cursor"
@@ -116,27 +117,24 @@ export default function gardensOfBabylon () {
                     and the products are defined in the WordPress backend for ease of managing and updating.</p>
                 </div>
                 <div 
-                className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto md:w-[840px] sm:w-96 sm:h-auto">
-                    <video autoPlay loop muted>
-                        <source src='/projectOne.mp4' type='video/mp4' />
-                    </video> 
+                className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto sm:w-96 lg:w-[840px] sm:h-auto">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/779770094?h=d6ce2f908f&autoplay=1&loop=1&title=0&byline=0&portrait=0&autopause=0&background=1" className="w-[380px] h-[280px] md:w-[400px] md:h-[300px] lg:w-[840px] lg:h-[525px]" frameborder="0" allowFullScreen allow="autoplay"></iframe>
                 </div>
 
+                {/* width="840" height="525" */}
             </div>
 
             <div className="flex items-center justify-between gap-10 mx-16 my-28 flex-col-reverse lg:flex-row">
 
                 <div 
-                className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto md:w-[840px] sm:w-96 sm:h-auto">
-                    <video autoPlay loop muted>
-                        <source src='/projectOneTwo.mp4' type='video/mp4' />
-                    </video> 
+                className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto sm:w-96 lg:w-[840px] sm:h-auto">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/779770078?h=c18a0a2ad2&autoplay=1&loop=1&title=0&byline=0&portrait=0&autopause=0&background=1" className="w-[380px] h-[280px] md:w-[400px] md:h-[300px] lg:w-[840px] lg:h-[450px]" frameborder="0" allowFullScreen allow="autoplay"></iframe>
                 </div>
                 <div className="w-auto lg:w-80">
                     <h3 className="text-3xl mb-5">Responsive sales management</h3>
                     <p className="text-lg">Sales are fast and simple with customized plugins, the final checkout process can be customized to suit best design practices.</p>
                 </div>
-
+                
             </div>
 
             <div className="flex items-center justify-between gap-10 my-28 flex-col">
@@ -146,14 +144,21 @@ export default function gardensOfBabylon () {
                 </div>
                 
                 <div className="flex flex-col gap-8 mx-16 md:flex-row">
+
+                    <Link href="">
                     <div 
                     className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto lg:w-auto sm:w-96 sm:h-auto">
                         <img src="/283.jpg" />
                     </div>
+                    </Link>
+
+                    <Link href="">
                     <div 
                     className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto lg:w-auto sm:w-96 sm:h-auto">
                         <img src="/283.jpg" />
                     </div>
+                    </Link>
+
                 </div>
 
             </div>

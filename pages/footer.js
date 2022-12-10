@@ -33,7 +33,7 @@ export default function Footer() {
         whileInView={{ opacity: 1, scale: 1,y:0 }}
         transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
         viewport={{ once: true }} 
-        className="flex gap-6 pb-10 pr-12">
+        className="flex flex-col sm:flex-row gap-0 sm:gap-6 pb-10 pr-12">
 
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12">
           <motion.a 
@@ -59,7 +59,7 @@ export default function Footer() {
           initial={{opacity: 0.6}}
           whileHover={{opacity: 1}}
           href="https://github.com/mattraonyc"  target="_blank">
-          Github
+          GitHub
           </motion.a>
           </p>
 

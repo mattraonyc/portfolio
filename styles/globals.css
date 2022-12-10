@@ -42,3 +42,7 @@ a {
   left: 0;
   pointer-events: none;
 }
+
+iframe {
+  pointer-events: none;
+}

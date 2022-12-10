@@ -22,17 +22,17 @@ export default function Projects() {
     <Link href="projects/gardensOfBabylon">
     <motion.div 
       initial={{ opacity: 0, scale: 0.8, y: 10 }}
-      whileInView={{ opacity: 0.8, scale: 1,y:0, padding: "30px" }}
+      whileInView={{ opacity: 0.8, scale: 1, y:0, paddingLeft: "30px", paddingRight: "30px" }}
       transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       whileHover={{opacity: 1, paddingLeft: "20px", paddingRight: "20px"}}
       viewport={{ once: true }}
-      className="flex flex-col justify-between gap-10 border-b-2 border-[gray] lg:flex-row cursor-pointer">
-        <div className="w-[350px]">
+      className="flex flex-col justify-between gap-10 mx-[-30px] sm:mx-0 border-b border-[gray] lg:flex-row cursor-pointer">
+        <div className="lg:w-[350px] w-[100%] lg:my-[30px]">
         <img className='rounded-xl'
         src='/283.jpg' />
         </div>
-        <div className='flex flex-col justify-center w-[500px]'>
-            <h3 className="text-3xl py-1 dark:text-white">Gardens of Babylon</h3>
+        <div className='flex flex-col text-center sm:text-start justify-center lg:w-[500px] w-[100%]'>
+            <h3 className="sm:text-3xl text-2xl py-1 dark:text-white">Gardens of Babylon</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             The Gardens of Babylon plant shop is a site built using WordPress and WooCommerce 
                 that allows users to purchase items and view catalog based on categories.</p>
@@ -43,17 +43,17 @@ export default function Projects() {
     <Link href="/projects/projectTwo">
     <motion.div 
       initial={{ opacity: 0, scale: 0.8, y: 10 }}
-      whileInView={{ opacity: 0.8, scale: 1,y:0, padding: "30px" }}
+      whileInView={{ opacity: 0.8, scale: 1, y:0, paddingLeft: "30px", paddingRight: "30px" }}
       transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       whileHover={{opacity: 1, paddingLeft: "20px", paddingRight: "20px"}}
       viewport={{ once: true }}
-      className="flex flex-col justify-between gap-10 border-b-2 border-[gray] lg:flex-row cursor-pointer">
-        <div className="w-[350px]">
+      className="flex flex-col justify-between gap-10 mx-[-30px] sm:mx-0 border-b border-[gray] lg:flex-row cursor-pointer">
+        <div className="lg:w-[350px] w-[100%] lg:my-[30px]">
         <img className='rounded-xl'
         src='/283.jpg' />
         </div>
-        <div className='flex flex-col justify-center w-[500px]'>
-            <h3 className="text-3xl py-1 dark:text-white">Gardens of Babylon</h3>
+        <div className='flex flex-col text-center sm:text-start justify-center lg:w-[500px] w-[100%]'>
+            <h3 className="sm:text-3xl text-2xl py-1 dark:text-white">Gardens of Babylon</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             The Gardens of Babylon plant shop is a site built using WordPress and WooCommerce 
                 that allows users to purchase items and view catalog based on categories.</p>
@@ -61,40 +61,40 @@ export default function Projects() {
     </motion.div>
     </Link>
 
-    <Link href="/projects/projectThree">
+    <Link href="/projects/personalPortfolio">
     <motion.div 
       initial={{ opacity: 0, scale: 0.8, y: 10 }}
-      whileInView={{ opacity: 0.8, scale: 1,y:0, padding: "30px" }}
+      whileInView={{ opacity: 0.8, scale: 1, y:0, paddingLeft: "30px", paddingRight: "30px" }}
       transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       whileHover={{opacity: 1, paddingLeft: "20px", paddingRight: "20px"}}
       viewport={{ once: true }}
-      className="flex flex-col justify-between gap-10 border-b-2 border-[gray] lg:flex-row cursor-pointer">
-        <div className="w-[350px]">
+      className="flex flex-col justify-between gap-10 mx-[-30px] sm:mx-0 border-b border-[gray] lg:flex-row cursor-pointer">
+        <div className="lg:w-[350px] w-[100%] lg:my-[30px]">
         <img className='rounded-xl'
         src='/283.jpg' />
         </div>
-        <div className='flex flex-col justify-center w-[500px]'>
-            <h3 className="text-3xl py-1 dark:text-white">Personal Portfolio</h3>
+        <div className='flex flex-col text-center sm:text-start justify-center lg:w-[500px] w-[100%]'>
+            <h3 className="sm:text-3xl text-2xl py-1 dark:text-white">Personal Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             My personal portfolio is a full design and branding project that was built with React, Tailwind, Framer Motion on a Next.js app.</p>
         </div>
     </motion.div>
     </Link>
 
-    <Link href="/projects/projectFour">
+    <Link href="/projects/Tindog">
     <motion.div 
       initial={{ opacity: 0, scale: 0.8, y: 10 }}
-      whileInView={{ opacity: 0.8, scale: 1,y:0, padding: "30px" }}
+      whileInView={{ opacity: 0.8, scale: 1, y:0, paddingLeft: "30px", paddingRight: "30px" }}
       transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
       whileHover={{opacity: 1, paddingLeft: "20px", paddingRight: "20px"}}
       viewport={{ once: true }}
-      className="flex flex-col justify-between gap-10 border-b-2 border-[gray] lg:flex-row cursor-pointer">
-        <div className="w-[350px]">
+      className="flex flex-col justify-between gap-10 mx-[-30px] sm:mx-0 border-b border-[gray] lg:flex-row cursor-pointer">
+        <div className="lg:w-[350px] w-[100%] lg:my-[30px]">
         <img className='rounded-xl'
         src='/283.jpg' />
         </div>
-        <div className='flex flex-col justify-center w-[500px]'>
-            <h3 className="text-3xl py-1 dark:text-white">Gardens of Babylon</h3>
+        <div className='flex flex-col text-center sm:text-start justify-center lg:w-[500px] w-[100%]'>
+            <h3 className="sm:text-3xl text-2xl py-1 dark:text-white">Gardens of Babylon</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             The Gardens of Babylon plant shop is a site built using WordPress and WooCommerce 
                 that allows users to purchase items and view catalog based on categories.</p>

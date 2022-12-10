@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vimeo/player": "^2.18.0",
     "firebase": "^9.10.0",
     "framer-motion": "^7.6.15",
     "moment": "^2.29.4",
