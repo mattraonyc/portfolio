@@ -59,7 +59,7 @@ export default function gardensOfBabylon() {
           <nav className="py-6 flex justify-between items-center text-white flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
             <a href="../">
               <motion.div>
-                <h1 className="text-xl">Matt Rao</h1>
+                <h1 className="text-xl font-bold">Matt Rao</h1>
               </motion.div>
             </a>
           </nav>

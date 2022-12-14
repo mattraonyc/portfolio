@@ -29,26 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/projects/Tindog": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/Tindog.js"
-    ],
-    "/projects/gardensOfBabylon": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/gardensOfBabylon.js"
-    ],
-    "/projects/personalPortfolio": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/personalPortfolio.js"
-    ],
-    "/projects/projectTwo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/projectTwo.js"
     ]
   },
   "ampFirstPages": []

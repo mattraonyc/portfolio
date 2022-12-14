@@ -7,7 +7,7 @@ import { duration } from "moment";
 
 export default function Intro() {
   return (
-    <div className="text-center px-10 pt-[140px] sm:min-h-screen">
+    <div className="text-center px-10 pt-[140px]">
       <motion.div
         initial={{ opacity: 0, scale: 0.8, y: 50 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}

@@ -23,7 +23,6 @@ export default function Home() {
       <main className="box-border overflow-hidden">
         <Navbar />
         <div className="max-w-[1390px] mx-auto bg-white px-10 dark:bg-[#1A1A1A] w-[100%] md:px-20 lg:px-40">
-          <Intro />
           <MyStory />
           <Projects />
           <Contact />
