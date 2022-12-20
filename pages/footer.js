@@ -1,12 +1,7 @@
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiTwotoneMail,
-  AiFillGithub,
-} from "react-icons/ai";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { AiFillMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Footer() {
   return (
@@ -28,25 +23,32 @@ export default function Footer() {
             viewport={{ once: true }}
             className="flex flex-col sm:flex-row gap-0 sm:gap-6 pb-10 pr-12"
           >
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12 flex gap-5">
               <motion.a
                 initial={{ opacity: 0.6 }}
                 whileHover={{ opacity: 1 }}
                 href="https://github.com/mattraonyc"
                 target="_blank"
               >
-                <FaGithubSquare className="w-10 h-10" />
+                <AiFillGithub className="w-10 h-10" />
               </motion.a>
-            </p>
 
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-start pl-12">
               <motion.a
                 initial={{ opacity: 0.6 }}
                 whileHover={{ opacity: 1 }}
                 href="https://linkedin.com/in/mattyrao/"
                 target="_blank"
               >
-                <FaLinkedin className="w-10 h-10" />
+                <AiFillLinkedin className="w-10 h-10" />
+              </motion.a>
+
+              <motion.a
+                initial={{ opacity: 0.6 }}
+                whileHover={{ opacity: 1 }}
+                href="mailto:mattraonyc@gmail.com"
+                target="_blank"
+              >
+                <AiFillMail className="w-10 h-10" />
               </motion.a>
             </p>
           </motion.div>
