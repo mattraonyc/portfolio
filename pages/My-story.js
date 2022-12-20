@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
+import { Link } from "next/link";
 
 export default function MyStory() {
   let { scrollYProgress } = useScroll();
@@ -36,19 +37,24 @@ export default function MyStory() {
         </p>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
-        whileInView={{ opacity: 1, scale: 1, rotate: 3 }}
-        transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
-        // style={{ y }}
-        viewport={{ once: true }}
-        className="md:absolute md:top-0 md:right-0 w-60 md:mt-0 mt-6 mx-auto rotate-2 cursor-pointer"
-        onMouseEnter={mouseEnter}
-        onMouseLeave={mouseLeave}
-        whileTap={{ y: -5 }}
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        target="_blank"
       >
-        <img src="/matt-02.jpeg" className="rounded-xl" />
-      </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
+          whileInView={{ opacity: 1, scale: 1, rotate: 3 }}
+          transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
+          // style={{ y }}
+          viewport={{ once: true }}
+          className="md:absolute md:top-0 md:right-0 w-60 md:mt-0 mt-6 mx-auto rotate-2 cursor-pointer"
+          onMouseEnter={mouseEnter}
+          onMouseLeave={mouseLeave}
+          whileTap={{ y: -5 }}
+        >
+          <img src="/matt-02.jpeg" className="rounded-xl" />
+        </motion.div>
+      </a>
       <motion.div className="z-10">
         <img
           src="/pixel-glasses.png"
