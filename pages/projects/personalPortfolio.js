@@ -128,7 +128,7 @@ export default function movieApp() {
                     damping: 10,
                   }}
                   className="text-white text-center text-[18px] px-4 py-2 border-none w-[100px] rounded-xl bg-[#242424]"
-                  href="https://github.com/mattraonyc/dune-movie-app"
+                  href="https://github.com/mattraonyc/portfolio"
                   target="_blank"
                 >
                   GitHub Repository
