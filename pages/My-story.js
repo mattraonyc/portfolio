@@ -28,12 +28,11 @@ export default function MyStory() {
         <p className="text-[19px] py-2 leading-8 text-gray-800 dark:text-gray-200">
           I am a frontend developer with particular interests in React.js,
           Javascript and TailwindCSS. With a background in marketing, I quickly
-          discovered my passion for web development through school projects and
-          the opportunity to combine technical problem solving with the
-          ever-growing technology stacks energizes me to keep actively learn
-          about the technologies that make frontend development better. When I
-          am not coding or studying, I love to spend my free time going on hikes
-          and playing video games.
+          discovered my passion for web development through school projects. The
+          opportunity to combine technical problem solving with the technology
+          energizes me to keep actively learning frontend development as well as
+          the backend. When I am not coding or studying, I love to spend my free
+          time going on hikes and playing video games.
         </p>
       </motion.div>
 
