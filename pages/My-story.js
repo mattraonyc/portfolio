@@ -36,30 +36,29 @@ export default function MyStory() {
         </p>
       </motion.div>
 
-      <a
+      {/* <a
         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
         target="_blank"
+      > */}
+      <motion.div
+        initial={{ rotate: 3 }}
+        whileInView={{ rotate: 3 }}
+        transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
+        // style={{ y }}
+        viewport={{ once: true }}
+        className="md:absolute md:top-0 md:right-0 w-60 md:mt-0 mt-6 mx-auto rotate-2 cursor-pointer"
+        onMouseEnter={mouseEnter}
+        onMouseLeave={mouseLeave}
+        whileTap={{ y: -5 }}
+        animate={{ y: 5 }}
+        // transition={{ repeat: Infinity, repeatType: "reverse", duration: 2 }}
       >
-        <motion.div
-          initial={{ rotate: 3 }}
-          whileInView={{ rotate: 3 }}
-          transition={{ delay: 0, duration: "0.6", ease: "easeOut" }}
-          // style={{ y }}
-          viewport={{ once: true }}
-          className="md:absolute md:top-0 md:right-0 w-60 md:mt-0 mt-6 mx-auto rotate-2 cursor-pointer"
-          onMouseEnter={mouseEnter}
-          onMouseLeave={mouseLeave}
-          whileTap={{ y: -5 }}
-          animate={{ y: 5 }}
-          // transition={{ repeat: Infinity, repeatType: "reverse", duration: 2 }}
-        >
-          <img src="/matt-02.jpeg" className="rounded-xl" />
-        </motion.div>
-      </a>
+        <img src="/matt-02.jpeg" className="rounded-xl" />
+      </motion.div>
       <motion.div className="z-10">
         <img
           src="/pixel-glasses.png"
-          className="md:absolute md:top-[130px] md:right-[103px] md:mt-0 mt-6 mx-auto rotate-2 w-7 hide"
+          className="md:absolute md:top-[135px] md:right-[103px] md:mt-0 mt-6 mx-auto rotate-2 w-7 hide"
           id="pixel"
         />
       </motion.div>
