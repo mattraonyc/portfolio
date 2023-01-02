@@ -6,7 +6,7 @@ import { AiFillMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 export default function Footer() {
   return (
     <>
-      <div className="bg-[#000] pt-[50px] flex flex-col sm:flex-row justify-center">
+      <div className="bg-[#ffffff] pt-[50px] flex flex-col sm:flex-row justify-center">
         {/* <div>
           <motion.div
             initial={{ opacity: 0, scale: 0.8, y: 10 }}

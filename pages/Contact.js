@@ -59,7 +59,7 @@ export default function Contact() {
           animate={cursorVariant}
         /> */}
         <h3 className="text-5xl font-bold  py-1 dark:text-white " id="contact">
-          Contact Me!
+          Contact Me
         </h3>
         <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
           Like what you see? I would love to get in touch with you!{" "}

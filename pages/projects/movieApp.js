@@ -7,7 +7,7 @@ import Head from "next/head";
 import { movie } from "../../components/codeblocks";
 
 export default function movieApp() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -55,9 +55,9 @@ export default function movieApp() {
         <meta name="description" content="Matt Rao | Web Developer Portfolio" />
         <link rel="icon" href="/earth-americas-solid.svg" />
       </Head>
-      <motion.main className=" text-white">
-        <div className="top-0 left-0 right-0 z-50 bg-[#1A1A1A]">
-          <nav className="py-6 flex justify-between items-center text-white flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
+      <motion.main>
+        <div className="top-0 left-0 right-0 z-50 ">
+          <nav className="py-6 flex justify-between items-center flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
             <a href="../">
               <motion.div>
                 <h1 className="text-[32px] font-bold">Matt Rao</h1>
@@ -175,7 +175,7 @@ export default function movieApp() {
                 which returns a paginated list of matching movies.
               </p>
             </div>
-            <div className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto sm:w-96 lg:w-[840px] sm:h-auto">
+            <div className="w-96 h-auto overflow-hidden md:h-auto sm:w-96 lg:w-[840px] sm:h-auto">
               <iframe
                 title="vimeo-player"
                 src="https://player.vimeo.com/video/782352906?h=f1870f0d73&autoplay=1&loop=1&title=0&byline=0&portrait=0&autopause=0&background=1"
@@ -190,7 +190,7 @@ export default function movieApp() {
           </div>
 
           <div className="flex items-center justify-between gap-10 mx-16 my-28 flex-col-reverse xl:flex-row">
-            <div className="rounded-3xl w-[380px] h-[210px] overflow-hidden border-4 border-black md:h-auto sm:w-96 lg:w-[840px] sm:h-auto">
+            <div className="w-[380px] h-[210px] overflow-hidden md:h-auto sm:w-96 lg:w-[840px] sm:h-auto">
               <iframe
                 title="vimeo-player"
                 src="https://player.vimeo.com/video/782352399?h=28839c76b7&autoplay=1&loop=1&title=0&byline=0&portrait=0&autopause=0&background=1"
@@ -232,7 +232,7 @@ export default function movieApp() {
             <div className="flex flex-col gap-8 mx-16 md:flex-row">
               <div>
                 <Link href="/projects/personalPortfolio">
-                  <div className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
+                  <div className="w-96 h-auto overflow-hidden md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
                     <img src="/portfolio-macbook.png" />
                   </div>
                 </Link>
@@ -243,7 +243,7 @@ export default function movieApp() {
 
               <div>
                 <Link href="/projects/game">
-                  <div className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
+                  <div className="w-96 h-auto overflow-hidden md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
                     <img src="/role-playing-game-iphone.png" />
                   </div>
                 </Link>

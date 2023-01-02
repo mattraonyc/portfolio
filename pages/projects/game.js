@@ -6,7 +6,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 export default function game() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -54,9 +54,9 @@ export default function game() {
         <meta name="description" content="Matt Rao | Web Developer Portfolio" />
         <link rel="icon" href="/earth-americas-solid.svg" />
       </Head>
-      <motion.main className=" text-white">
-        <div className="top-0 left-0 right-0 z-50 bg-[#1A1A1A]">
-          <nav className="py-6 flex justify-between items-center text-white flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
+      <motion.main>
+        <div className="top-0 left-0 right-0 z-50">
+          <nav className="py-6 flex justify-between items-center flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
             <a href="../">
               <motion.div>
                 <h1 className="text-[32px] font-bold">Matt Rao</h1>
@@ -173,7 +173,7 @@ export default function game() {
                 is a second delay between changing opponents.
               </p>
             </div>
-            <div className="rounded-3xl w-[200px] h-[350px] overflow-hidden border-4 border-black md:h-auto sm:w-[300px] lg:w-[360px] sm:h-auto">
+            <div className="w-[200px] h-[350px] overflow-hidden md:h-auto sm:w-[300px] lg:w-[360px] sm:h-auto">
               <iframe
                 title="vimeo-player"
                 src="https://player.vimeo.com/video/782724674?h=f12e9aee68&autoplay=1&loop=1&title=0&byline=0&portrait=0&autopause=0&background=1"
@@ -205,7 +205,7 @@ export default function game() {
             <div className="flex flex-col gap-8 mx-16 md:flex-row">
               <div>
                 <Link href="/projects/movieApp">
-                  <div className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
+                  <div className="w-96 h-auto overflow-hidden md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
                     <img src="/movie-macbook.png" />
                   </div>
                 </Link>
@@ -216,7 +216,7 @@ export default function game() {
 
               <div>
                 <Link href="/projects/personalPortfolio">
-                  <div className="rounded-3xl w-96 h-auto overflow-hidden border-4 border-black md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
+                  <div className="w-96 h-auto overflow-hidden md:h-auto lg:w-auto sm:w-96 sm:h-auto cursor-pointer hover:opacity-80">
                     <img src="/portfolio-macbook.png" />
                   </div>
                 </Link>

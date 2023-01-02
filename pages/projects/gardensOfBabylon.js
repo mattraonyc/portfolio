@@ -6,7 +6,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 export default function gardensOfBabylon() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -54,9 +54,9 @@ export default function gardensOfBabylon() {
         <meta name="description" content="Matt Rao | Web Developer Portfolio" />
         <link rel="icon" href="/earth-americas-solid.svg" />
       </Head>
-      <motion.main className=" text-white">
-        <div className="top-0 left-0 right-0 z-50 bg-[#1A1A1A]">
-          <nav className="py-6 flex justify-between items-center text-white flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
+      <motion.main>
+        <div className="top-0 left-0 right-0 z-50 bg-[#ffffff]">
+          <nav className="py-6 flex justify-between items-center text-black flex-col sm:flex-row sm:px-[50px] lg:px-[60px]">
             <a href="../">
               <motion.div>
                 <h1 className="text-[32px] font-bold">Matt Rao</h1>
