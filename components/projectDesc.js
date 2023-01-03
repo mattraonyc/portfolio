@@ -1,45 +1,6 @@
 import { motion } from "framer-motion";
 import { React, useState, useEffect } from "react";
 
-// const [mousePosition, setMousePosition] = useState({
-//   x: 0,
-//   y: 0,
-// });
-// const [cursorVariant, setCursorVariant] = useState("default");
-
-// useEffect(() => {
-//   const mouseMove = (e) => {
-//     setMousePosition({
-//       x: e.clientX,
-//       y: e.clientY,
-//     });
-//   };
-
-//   window.addEventListener("mousemove", mouseMove);
-
-//   return () => {
-//     window.removeEventListener("mousemove", mouseMove);
-//   };
-// }, []);
-
-// const variants = {
-//   default: {
-//     x: mousePosition.x - 16,
-//     y: mousePosition.y - 16,
-//   },
-//   text: {
-//     height: 150,
-//     width: 150,
-//     x: mousePosition.x - 75,
-//     y: mousePosition.y - 75,
-//     backgroundColor: "smokeWhite",
-//     mixBlendMode: "difference",
-//   },
-// };
-
-// const textEnter = () => setCursorVariant("text");
-// const textLeave = () => setCursorVariant("default");
-
 const ProjectDesc = ({
   projectName,
   siteUrl,
@@ -51,18 +12,7 @@ const ProjectDesc = ({
   return (
     <>
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-36 mb-16 mx-16">
-        {/* <motion.div
-          className="cursor"
-          variants={variants}
-          animate={cursorVariant}
-        /> */}
-        <motion.h1
-          //   onMouseEnter={textEnter}
-          //   onMouseLeave={textLeave}
-          className="md:text-7xl text-3xl"
-        >
-          {projectName}
-        </motion.h1>
+        <motion.h1 className="md:text-7xl text-3xl">{projectName}</motion.h1>
         <div>
           <p className="text-md py-2 leading-8 text-start pl-12">
             <motion.a

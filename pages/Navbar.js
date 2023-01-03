@@ -35,25 +35,18 @@ export default function Navbar() {
                       <a href={item.link}>
                         <motion.div
                           whileHover={{
-                            boxShadow: "-5px 5px 0 rgba(0, 0, 0, 0.2)",
-                            y: -1,
-                            x: 1,
-                            opacity: 1,
+                            opacity: 0.7,
                           }}
                           whileFocus={{
-                            boxShadow: "-5px 5px 0 rgba(0, 0, 0, 0.2)",
-                            y: -1,
-                            x: 1,
                             opacity: 1,
                           }}
-                          whileTap={{ scale: 0.9 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
                             damping: 10,
                           }}
-                          initial={{ opacity: 0.8 }}
-                          className="text-black text-center text-[18px] px-4 py-2 underline w-[100px] border-black border-2 "
+                          initial={{ opacity: 1 }}
+                          className="text-black text-center text-[18px] underline"
                           href={item.link}
                         >
                           {item.name}

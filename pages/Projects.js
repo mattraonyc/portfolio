@@ -63,7 +63,7 @@ export default function Projects() {
                   {project.desc}
                 </p>
               </div>
-              <motion.div whileTap={{ scale: 0.9 }}>
+              <motion.div>
                 <p className="text-[#000000] text-lg text-center underline p-2 m-4 border-2">
                   <Link href={project.url}>Learn More</Link>
                 </p>
