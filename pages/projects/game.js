@@ -15,8 +15,11 @@ export default function game() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Matt Rao | Web Developer</title>
-        <meta name="description" content="Matt Rao | Web Developer Portfolio" />
+        <title>Zhiwei Rao | Software Developer</title>
+        <meta
+          name="description"
+          content="Zhiwei Rao | Web Developer Portfolio"
+        />
         <link rel="icon" href="/earth-americas-solid.svg" />
       </Head>
       <motion.main>

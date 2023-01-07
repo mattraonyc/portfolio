@@ -15,7 +15,7 @@ export default function Intro() {
       >
         <motion.div>
           <h2 className="text-5xl py-2 text-white font-medium dark:text-white md:text-6xl flex justify-center items-center">
-            Matt Rao
+            Zhiwei Rao
           </h2>
 
           <h3 className="text-2xl py-2 dark:text-white md:text-3xl">

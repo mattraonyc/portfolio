@@ -15,7 +15,7 @@ export default function gardensOfBabylon() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Matt Rao | Web Developer</title>
+        <title>Zhiwei Rao | Software Developer</title>
         <meta name="description" content="Matt Rao | Web Developer Portfolio" />
         <link rel="icon" href="/earth-americas-solid.svg" />
       </Head>

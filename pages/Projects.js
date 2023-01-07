@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <div className="md:my-10">
       <h3
-        className="text-3xl font-bold dark:text-white lg:mt-24 mt-10"
+        className="text-3xl font-bold dark:text-white lg:mt-24 mt-10 lg:ml-4"
         id="projects"
       >
         Projects
