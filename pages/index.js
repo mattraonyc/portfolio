@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Zhiwei Rao | Software Developer</title>
+        <title>Matt Rao | Software Developer</title>
         <meta
           name="description"
-          content="Zhiwei Rao | Software Developer Portfolio"
+          content="Matt Rao | Software Developer Portfolio"
         />
         <link rel="icon" href="/earth-americas-solid.svg" />
       </Head>

@@ -15,7 +15,7 @@ export default function game() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Zhiwei Rao | Software Developer</title>
+        <title>Matt Rao | Software Developer</title>
         <meta
           name="description"
           content="Zhiwei Rao | Web Developer Portfolio"
